@@ -156,7 +156,7 @@ button::-moz-focus-inner {
 	background: #FFF;
 	padding: 10px 15px;
 	text-align: left;
-	max-width:36%;
+	max-width:30%;
 	margin: 40px auto;
 	position: relative;
 }
