@@ -719,7 +719,9 @@ button::-moz-focus-inner {
 
 /*----*/
 .pricing-grid{
-	width: 30.8%;
+	width: 45%;
+	/*width: 30.8%;*/
+
 	float: left;
 	background: #FFF;
 	text-align: center;
