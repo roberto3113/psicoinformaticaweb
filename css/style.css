@@ -502,7 +502,8 @@ color:#C0B9CD;
 /*************end-slider**********/
 /************start-contact*********/
 .contact{
-	background:#000 url(../images/cbg.png) no-repeat;
+	/*background:#000 url(../images/cbg.png) no-repeat; "para colocar la guitarra al final"*/
+	background:#000;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -535,13 +536,21 @@ color:#C0B9CD;
 	margin-top:0.5em;
 	width: 89%;
 }
+/* YOOOOOOOO*/
+.video-cabecera {
+	width:49%;
+	margin: auto;
+	display: block;
+}
+/* YOOOOOOOO*/
+
 .contact-form {
 	padding: 2em 0 1em;
 }
 .contact h2{
-	color:#F2F2F2;
-	font-size:2.5em;
-	padding: 2em 0em 0.7em 0em;
+	color:#FFF;
+	font-size:1.5em;
+	padding: 0.5em 0em 0.7em 0em;
 	text-align: center;
 }
 .get-intouch-left-address p,.get-intouch-left-address p a{
@@ -1487,18 +1496,22 @@ ul.sidebar_1 li {
 	width: 222px;
 	}
 	#gallerylist:nth-child(3),#gallerylist1:nth-child(3) {
-	display: none;
+	/*display: none;*/
 	}
 	.gallerylist-wrapper:nth-child(3)
 	{
-		display:none;
+		/*display:none;*/
 	}
 	.gallerylist-wrapper:nth-child(5),.gallerylist-wrapper:nth-child(4)
 	{
 		margin-right: 0%;
 	}
 	.gallerylist-wrapper {
-	width: 48%;
+	width: 80%;
+	float: none;
+	margin: auto;
+	margin-bottom: 15px;
+
 	}
 	article > div > p {
 	width: 80%;
@@ -1513,6 +1526,13 @@ ul.sidebar_1 li {
 	float: none;
 	width: 100%;
 	}
+
+	/* YOOOOOOOO*/
+	.video-cabecera {
+	float: none;
+	width:90%;
+	}
+	/* YOOOOOOOO*/
 	.form {
 	float: none;
 	width: 100%;
@@ -1591,7 +1611,7 @@ ul.sidebar_1 li {
 	width: 96%;
 	}
 	.contact h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	}
 	.para-contact h4 {
 	font-size: 1.3em;

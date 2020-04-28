@@ -719,8 +719,8 @@ button::-moz-focus-inner {
 
 /*----*/
 .pricing-grid{
-	width: 45%;
-	/*width: 30.8%;*/
+	/*width: 45%;   para colocar 2 por fila*/
+	width: 30.8%; /*para colocar 3 por fila*/
 
 	float: left;
 	background: #FFF;
