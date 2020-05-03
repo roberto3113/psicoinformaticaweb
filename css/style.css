@@ -233,7 +233,7 @@ img { border: 0; max-width: 100%; }
 	-moz-border-radius: 50%;
 }
 .images_1_of_4  h3{
-	color:#49CBCD;
+	color:#5A5E68;
 	font-size:1.2em;
 	font-family:'Open Sans', sans-serif;
 	font-weight :bold;
@@ -250,6 +250,7 @@ img { border: 0; max-width: 100%; }
 .images_1_of_4  p {
 	font-size:0.875em;
 	color:#5A5E68;
+	/*color:#ff6E00;*/
 	line-height: 1.8em;
 	font-family : 'Open Sans', sans-serif;
 }
@@ -386,6 +387,7 @@ img { border: 0; max-width: 100%; }
 }
 .images_1_of_4 h4 {
 	color: #4E525D;
+	/*color: #ff6E00;*/
 	font-size: 0.9em;
 	font-weight: 600;
 	padding-bottom: 1em;
@@ -1356,8 +1358,8 @@ ul.sidebar_1 li {
 	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
 	cursor:pointer;
-	font-size: 1.3em; 
-	width:30%
+	font-size: 1.5em; 
+	width:40%
 }
 .btn-green{
 	color: white;
@@ -1642,7 +1644,8 @@ ul.sidebar_1 li {
 	}
 	/*YOOOOOOO*/
 	.btn{
-	font-size: 0.9em; 
+	font-size: 1.1em;
+	width:50%
 	}
 	/*YOOOOOOO*/
 
@@ -1684,7 +1687,8 @@ ul.sidebar_1 li {
 	}
 	/*YOOOOOOO*/
 	.btn{
-	font-size: 0.6em; 
+	font-size: 0.9em;
+	width:70%
 	}
 	/*YOOOOOOO*/
 }
