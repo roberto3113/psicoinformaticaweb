@@ -738,13 +738,13 @@ button::-moz-focus-inner {
 	border-bottom: 0 none;
 }
  .pricing-grid:hover h3 a,.pricing-grid:hover .cart a{
-	background: #49CBCD;
+	background: #49CBCD; /* para cambiar el color cuando pase por encima	*/
 }
 .pricing-grid:nth-child(3){
 	margin-right:0;
 }
 .pricing-grid h3 a{
-	background:#485460;
+	background:#ff6E00;/* para cambiar la cabecerita de los planes*/
 	padding: 0.6em 1em;
 	display: block;
 	color: #FFF;
@@ -788,7 +788,7 @@ button::-moz-focus-inner {
 }
 .cart a{
 	color: #FFF;
-	background: #788492;
+	background: #ff6E00;
 	font-size: 1.1em;
 	padding: 0.4em 2em;
 	font-weight:500;

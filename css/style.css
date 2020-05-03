@@ -1346,6 +1346,30 @@ ul.sidebar_1 li {
 	height: 30px;
 	vertical-align: middle;
 }
+
+
+.btn{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
+	cursor:pointer;
+	font-size: 1.3em; 
+	width:30%
+}
+.btn-green{
+	color: white;
+	background-color: #ff6E00;
+}
+.btn-green:hover{
+	background-color: #37B839;	
+}
+.btn-green:active{
+	background-color: #29962A;
+}
+
 /*******end_blog_innerpage***/
 /*********responsive_media _queries********/
 @media only screen and (max-width: 1440px)
@@ -1616,6 +1640,12 @@ ul.sidebar_1 li {
 	.para-contact h4 {
 	font-size: 1.3em;
 	}
+	/*YOOOOOOO*/
+	.btn{
+	font-size: 0.9em; 
+	}
+	/*YOOOOOOO*/
+
 }
 /****/
 @media only screen and (max-width: 640px)
@@ -1652,6 +1682,12 @@ ul.sidebar_1 li {
 	.rsidebar h4, .span_2_of_single h4 {
 	font-size: 1.3em;
 	}
+	/*YOOOOOOO*/
+	.btn{
+	font-size: 0.6em; 
+	}
+	/*YOOOOOOO*/
+}
 /****/
 @media only screen and (max-width: 480px)
 {
@@ -1660,6 +1696,8 @@ ul.sidebar_1 li {
 	width: 200px;
 	}
 	
+	
+
 	.pricing-grid{margin-top: 15px;}
 
 	.pricing-grid:nth-child(1) {
@@ -1943,4 +1981,5 @@ ul.sidebar_1 li {
 	.comments-area {
 	padding-top: 30px;
 	}
+	
 }
